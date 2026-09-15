@@ -1,5 +1,7 @@
 turma = []
 
+#lista[posição]["chave"] é como voce interage com um dicionario dentro de uma lista
+
 for i in range(5):
     turma.append({"nome": input("digite o nome do aluno: "), "nota": float(input("Digite a nota do aluno: "))})
     if turma[i]["nota"] >= 7:
