@@ -4,6 +4,8 @@ for i in range(5):
     valor = float(input("Digite um numero: "))
     lista.append(valor)
 
+print(lista)
+
 print("O maior valor da lista é: ", max(lista))
 #print(f"{max(lista)} é o maior valor da lista" )
 
